@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="employee_registration_form.css">
+</head>
+
+<body>
+    <form>
+        <div class="header">
+            <img style="text-align:end;le;" src="biprosLogo.jfif" alt="Bipros" width="50" height="50" class="center">
+            <div class="total">
+                <div class="heading">
+                    <h1 style="text-align: center;">Employee Registration</h1>
+                </div>
+            </div>
+        </div>
+        <div class="full_form">
+
+            <div class="table">
+                <table align="fit-content style=" height:fit-content;">
+                    <tr>
+                        <td>Name::</td>
+                        <td><input type="text" name="employee_name" maxlength="10" class="box"required><span
+                                style="color:red;">*</span></td>
+                    </tr>
+                    <tr>
+                        <td>Age::</td>
+                        <td><input type="password" name="employee_age" class="box" required><span
+                                style="color:red">*</span></td>
+                    </tr>
+                    <tr>
+                        <td>Upload photo</td>
+                        <td><input type="file" name="employee_photo" class="box">
+                    </tr>
+                    <tr>
+                        <td>Gender::</td>
+                        <td><input type="radio" name="gender" value="Male">Male&nbsp;&nbsp;
+                            <input type="radio" name="gender" value="Female" checked>Female&nbsp;&nbsp;
+                            <input type="radio" name="gender" value="Other">Other&nbsp;&nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Marital status</td>
+                        <td><input type="radio" name="gender" value="Married">Married&nbsp;&nbsp;
+                            <input type="radio" name="gender" value="Unmarried" checked>Unmarried&nbsp;&nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Qualificatin::</td>
+                        <td>
+                            <select name="qualification" class="box">
+                                <option value="" selected>----select---</option>
+                                <option value="Engineer">BE/Btech/MCA</option>
+                                <option value="Doctor">MBBS/MSC</option>
+                                <option value="Accountant">B.com/M.com</option>
+                                <option value="Arts">MA/BA</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Language known::</td>
+                        <td>
+                            <select name="language_known" class="box">
+                                <option value="odia" selected>odia</option>
+                                <option value="Engish">English</option>
+                                <option value="Hindi">Hindi</option>
+                                <option value="telugu">telugu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hobies</td>
+                        <td>
+                            <input type="checkbox" name="hubby" value="reading" checked>Reading<br>
+                            <input type="checkbox" name="hubby" value="watching">WatchingTV<br>
+                            <input type="checkbox" name="hubby" value="travel">Travelling<br>
+                            <input type="checkbox" name="hubby" value="cricket">Playing Cricket<br>
+                    </tr>
+                    <tr>
+                        <td>Date of birth::</td>
+                        <td><input type="date" name="dob" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td>Time of Birth::</td>
+                        <td><input type="time" name="tob" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td>Month of birth::</td>
+                        <td><input type="month" name="mob" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td>number of week of birth</td>
+                        <td><input type="week" name="wob" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number:</td>
+                        <td><input type="tel" name="phone_number" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td>email Id::</td>
+                        <td><input type="email" name="mail" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td>Select your fevorite number</td>
+                        <td><input type="range" min="0" max="10" name="favrite_nunber" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td>Fav Color::</td>
+                        <td><input type="color" name="color" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td>Previous Salary</td>
+                        <td><input type="number" min="10000" max="100000" name="income" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td>Facebook Url::</td>
+                        <td><input type="url" name="fburl" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td>Fev Google search string::</td>
+                        <td><input type="serach" name="favserach" class="box"></td>
+                    </tr>
+                    <tr>
+                        <td>Time of registration</td>
+                        <td><input type="datetime-local" name="recent_time"  class="box"required><span
+                                style="color:red;">*</span></td>
+                    </tr>
+                    <tr>
+                        <td>Click here::</td>
+                        <td><input type="button" name="button" style="height: auto;width:100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>Address::</td>
+                        <td><textarea rows="5" cols="20" maxlength="100" name="employee_address"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit" class="box" style="background-color: greenyellow;">
+                        </td>
+                        <td><input type="reset" value="Cancel" class="box" style="background-color:lightcoral"></td>
+                    </tr>
+            </div>
+            </table>
+        </div>
+    </form>
+    </div>
+</body>
+
+</html>
