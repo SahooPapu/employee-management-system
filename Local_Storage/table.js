@@ -1,5 +1,5 @@
 
-console.log("chodiii");
+console.log("test");
 
 var table = document.getElementById("student_table");
 
