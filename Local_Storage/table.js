@@ -16,4 +16,4 @@ cell1.innerHTML = "88521";
 cell2.innerHTML = "Papu Sahu";
 cell3.innerHTML = "MCA";
 cell4.innerHTML = "2-1-2001";
-cell5.innerHTML = "Gehiede Magia";
+cell5.innerHTML = "Bardkul khordha";
