@@ -1,23 +1,17 @@
-
-console.log("Check");
 class Student{
     name;
-    dept;
+    roll;
     id;
     dob;
     hobbies;
     getName() {
         return this.name;
     }
-    getDept() {
-        return this.dept;
+    getRoll() {
+        return this.roll;
     }
     getId() {
         return this.id;
-    }
-    getDob()
-    {
-        return this.dob;
     }
     getHobbies() {
         return this.hobbies;
@@ -25,8 +19,8 @@ class Student{
     setName(name) {
         this.name = name;
     }
-    setDept(dept) {
-        this.dept=dept;
+    setRoll(roll) {
+        this.roll = this.roll;
     }
     setId(id) {
         this.id = id;
@@ -49,14 +43,10 @@ function clickFunction()
     let hubbies=document.getElementById("shubbies").value;
      s=new Student();
     s.setId(id);
+    s.setHobbies(name);
     s.setHobbies(hubbies);
     s.setDob(dob);
-    s.setName(name);
-    s.setDept(department);
     arr=[];
-    arr.push(localStorage.getItem("s"));
-    debugger;
-    console.log(JSON.stringify(arr));
-    localStorage.setItem("s",JSON.stringify(arr));
-  
+    localStorage.setItem(JSON.stringify())
+
 }
